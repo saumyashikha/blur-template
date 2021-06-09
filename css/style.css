@@ -1,0 +1,99 @@
+body{
+    background: rgba(0, 0, 0, 0.9);
+    margin: 0;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header{
+    background-image: url('../images/s.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 10px 10px 10px #000;
+    background-attachment: fixed;
+
+}
+
+.navbar{
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 3px #000;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+}
+}
+.navbar li{
+    text-decoration: none;
+}
+.navbar li:hover{
+    text-decoration: underline;
+    text-shadow: .1rem .1rem .8rem white;
+}
+.navbar a{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar-toggler{
+    background: rgba(27, 25, 25, 0.9);
+    border-radius: 0%;
+    outline-style: double;
+}
+
+.title{
+    text-align: center;
+    padding-top: 12rem;
+    font-size: 4rem;
+    letter-spacing: .2rem;
+    text-shadow: .1rem .1rem .8rem white;
+}
+.text{
+    text-align: center;
+    padding-bottom: 13rem;
+    font-size: 1.5rem;
+}
+.row{
+    margin: 2rem;
+}
+.row h3{
+    margin: 1.5rem;
+    
+}
+.container-fluid{
+    color: black;
+    padding: 2rem;
+}
+.about h4{
+    margin-top: 1.5rem;
+    letter-spacing: .1rem;
+}
+.about p{
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+@media(max-width: 560px){
+    .title{
+        text-align: center;
+        padding-bottom: 12rem;
+        font-size: 3rem;
+    }
+    .text{
+       display:none;
+    }
+    .row{
+        margin: 3rem;
+        margin-left: 0.5rem;
+    }
+    .row h3{
+        margin: 0.5rem;   
+    }
+    .row i{
+        margin-top: 1.5rem;
+    }
+    .row p{
+        font-size: 1rem;
+    }
+    .row1 div{
+        border-bottom: #333 dashed 1px;
+    }
+}
